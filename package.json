@@ -1,0 +1,29 @@
+{
+  "name": "cloudy-api",
+  "version": "1.0.0",
+  "description": "rest api with heroku",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Esdee",
+  "license": "The MIT License (MIT)",
+  "dependencies": {
+    "aguid": "^1.0.4",
+    "bcrypt": "^0.8.5",
+    "bell": "^6.0.0",
+    "boom": "^3.1.1",
+    "env2": "^2.0.4",
+    "hapi": "^11.1.3",
+    "hapi-auth-jwt2": "^5.3.2",
+    "hapi-swagger": "^3.3.0",
+    "inert": "^3.2.0",
+    "joi": "^7.2.2",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^5.5.4",
+    "mongoose": "^4.3.7",
+    "mongoose-unique-validator": "^0.6.2",
+    "vision": "^4.0.1"
+  }
+}
